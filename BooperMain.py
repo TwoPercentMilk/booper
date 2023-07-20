@@ -44,9 +44,7 @@ def init_server():
 
 
 def manual_motor_control():
-    '''
-    Control motors. Can use 'Joystick' or 'Keyboard' control.
-    '''
+    # Control motors. Can use 'Joystick' or 'Keyboard' control.
     while True:
         if MOVEMENT == 'Joystick':
             # print(js.get_joystick())
